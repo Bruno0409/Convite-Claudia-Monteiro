@@ -12,7 +12,7 @@ const observer = new IntersectionObserver((entries) => {
 reveals.forEach((r) => observer.observe(r));
 
 /* CONTAGEM REGRESSIVA */
-const eventoData = new Date("2026-04-08T19:00:00").getTime();
+const eventoData = new Date("2026-04-08T19:30:00").getTime();
 
 function atualizarCountdown() {
   const agora = new Date().getTime();
